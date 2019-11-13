@@ -128,10 +128,10 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. The Window/Global Object binding is when 
-  2. 
-  3. 
-  4. 
+  1. Window/Global Object binding is when "this" is used in the global scope and not referencing something specific.
+  2. Implicit binding is when a function is called. The object, which is to the left of the dot of the function call, is what "this" is referring to.
+  3. Explicit binding is when we use the call/apply/bind global methods, passing our object as an argument into constructor classes. "this" refers to the passed object.
+  4. New binding is when a new object of a constructor class is created using the "new" keyword. The "this" within the constructor class refers to any newly created object.
 */
 
 
